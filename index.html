@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carro em Movimento</title>
     <style>
+        body {
+            background-image: url('c:\\Users\\Felipe Ferreira\\Downloads\\estrada.1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
         @keyframes moverCarro {
             0% { left: 0; }
             100% { left: calc(100% - 150px); }
@@ -14,17 +24,27 @@
             position: absolute;
             bottom: 50px;
             width: 150px;
-            animation: moverCarro 2s linear infinite;
+            animation: moverCarro 3s linear infinite;
         }
+        .texto { 
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: rgb(22, 21, 21);
+            font-size: 24px;
+        }
+           
     </style>
 </head>
 <body>
     <center>
-        <p>Silvão em movimento com sua mercedez
+        <p>PARABENS JOÃO PEDRO 
     </p></center>
     
 
-    <img src="c:\Users\Felipe Ferreira\Downloads\mercedes.22.jpg" class="carro" alt="Carro em Movimento">
+    <img src="c:\Users\Felipe Ferreira\Downloads\joao.jpg" class="carro" alt="Carro em Movimento">
 
 </body>
 </html>
